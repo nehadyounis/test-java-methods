@@ -1,13 +1,13 @@
 import java.io.*;
 
 public class Main {
-  static void myAge(String fname) {
-    System.out.println(fname + " is ");
+  static void myAge(String fname, int age) {
+    System.out.println(fname + " is " + age);
   }
 
   public static void main(String[] args) {
-    myAge("Liam");
-    myAge("Jenny");
-    myAge("Anja");
+    myAge("Liam", 5);
+    myAge("Jenny", 5);
+    myAge("Anja", 8);
   }
 }
